@@ -1,0 +1,21 @@
+{
+    "RENAME THIS FILE TO" : "config.json",
+    "Provided .htaccess WILL DENY READING THIS FILE FROM OUTSIDE" : "",
+
+    "Time" : {
+        "LastContactMaxSeconds" : 180
+    },
+    "Endpoint" : {
+        "comment" : "Token is a random key from your choice that must be used when sending the POST request at Home. Return is the text returned to a POST request.",
+        "Token" : "34a1aa92998cb4b2d2ce4363c24406e4ed4bd7289d1702361e4274cd9968eb46d934e10a29d1707f12e58b4f5361e806dc88ee0fe045a42629d0a55f3e509182",
+        "Return" : "OK"
+    },
+    "Telegram" : {
+        "BotToken" : "your telegram bot token",
+        "comment" : "ChatID = Where to send messages. You can use @chatinfo_bot to get your user or group ChatID.",
+        "ChatID" : 1234,
+        "MessageDown" : "Home is DOWN!",
+        "MessageUp" : "Home is UP again!"
+    }
+
+}
