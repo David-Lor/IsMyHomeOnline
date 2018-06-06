@@ -30,15 +30,15 @@ service.php must be set on cron to be executed each X minutes (000webhost allows
 On the config.template.json (rename to config.json) file you must set some variables and you can customize others. These are the settings available:
 
 * Time
-    . LastContactMaxSeconds: time limit in seconds to consider your home connection as DOWN
+  * LastContactMaxSeconds: time limit in seconds to consider your home connection as DOWN
 * Endpoint
-    . Token: set here a custom token. This avoids unauthorized users to send POST requests to the endpoint (the one provided is a random SHA512 string, but you can put whatever you want)
-    . Return: the string to return after a POST request to the endpoint was successful
+  * Token: set here a custom token. This avoids unauthorized users to send POST requests to the endpoint (the one provided is a random SHA512 string, but you can put whatever you want)
+  * Return: the string to return after a POST request to the endpoint was successful
 * Telegram
-    . BotToken: your Telegram Bot token
-    . ChatID: your Telegram User ID, or the ChatID of a group, if you want to send the message there
-    . MessageDown: text of the message to be sent when your connection is DOWN
-    . MessageDown: text of the message to be sent when your connection is UP again
+  * BotToken: your Telegram Bot token
+  * ChatID: your Telegram User ID, or the ChatID of a group, if you want to send the message there
+  * MessageDown: text of the message to be sent when your connection is DOWN
+  * MessageDown: text of the message to be sent when your connection is UP again
 
 ### Home
 
